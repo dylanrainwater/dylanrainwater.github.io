@@ -6,6 +6,10 @@
 			margin: 0;
 			padding: 0;
 		}
+
+        a {
+            text-decoration: none;
+        }
 		
 		h1 {
 			font-family: "Lobster";
@@ -22,7 +26,46 @@
 			padding: 4em 1em;
 			color: #555;
 		}
-		
+        
+        .nav {
+            line-height: 1.5;
+            padding: 1em 1em;
+            text-align: center;
+        }
+
+        .nav ul {
+            display: inline-block;
+            list-style-type: none;
+            margin: 0 auto;
+            padding: 0;
+
+
+        }
+
+        .nav ul li {
+            display: inline;
+            float: left;
+        }
+
+        .nav ul li a {
+            border-radius: 290486px;
+    	    font-size: 0.4cm;	
+            letter-spacing: 0.09cm;
+	        padding: .25cm .5cm;
+            margin-right: .25cm;
+            margin-left: .25cm;
+    	    text-transform: uppercase;
+	        text-decoration: none;
+	        transition: none 200ms ease-out;
+    	    transition-property: color, background;			
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .nav ul li a:hover {
+            background-color: #1B5E20;
+        }
+
 		h2 {
 			margin-top: 1em;
 			padding-top: 1em;
@@ -76,6 +119,7 @@
 		
 		.bottom {
 			margin: 0 auto;
+            bottom: 0;
 			text-align: center;
 			background-color: #F5F5F5;
 			width: 100%;
@@ -91,7 +135,7 @@
 			text-decoration: none;
 			transition: none 200ms ease-out;
 			transition-property: color, background;
-		}
+	}
 		
 		.github {
 			border: 1px solid black;
