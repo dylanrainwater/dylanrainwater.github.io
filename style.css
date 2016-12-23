@@ -38,8 +38,6 @@
             list-style-type: none;
             margin: 0 auto;
             padding: 0;
-
-
         }
 
         .nav ul li {
@@ -58,12 +56,15 @@
 	        text-decoration: none;
 	        transition: none 200ms ease-out;
     	    transition-property: color, background;			
-            background-color: #4CAF50;
-            color: white;
+            
+            color: #4CAF50;
+            background-color: white;
+            border: 1px #4CAF50 solid;
         }
 
         .nav ul li a:hover {
             background-color: #1B5E20;
+            color: white;
         }
 
 		h2 {
