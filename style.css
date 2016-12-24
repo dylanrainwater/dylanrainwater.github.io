@@ -155,3 +155,32 @@ a:hover.github {
     background: black;
     color: white;   
 }
+
+
+.grid {
+    margin: 0 auto;
+    text-align: center;
+    width: 1250px;
+}
+
+.grid img {
+    width: 250px;
+    transition: none 200ms ease-out;
+    transition-property: width;
+    margin-right: 10px;
+    border: 1px black solid;
+}
+
+.grid img:hover {
+    width: 260px;
+}
+
+
+.post {
+    display: inline-block;
+}
+
+.post p {
+    margin: 5px auto;
+    width: 250px;
+}
