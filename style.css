@@ -1,180 +1,157 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
-		@import url(https://fonts.googleapis.com/css?family=Lobster);
-		
-		html,
-		body {
-			margin: 0;
-			padding: 0;
-		}
-
-        a {
-            text-decoration: none;
-        }
-		
-		h1 {
-			font-family: "Lobster";
-		}
-		
-		body {
-			font-family: "Roboto";
-		}
-
-		.content {
-			margin: 0 auto;
-			max-width: 50em;
-			line-height: 1.5;
-			padding: 4em 1em;
-			color: #555;
-		}
+@import url(https://fonts.googleapis.com/css?family=Lobster);
         
-        .nav {
-            line-height: 1.5;
-            padding: 1em 1em;
-            text-align: center;
-        }
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
-        .nav ul {
-            display: inline-block;
-            list-style-type: none;
-            margin: 0 auto;
-            padding: 0;
-        }
+a {
+    text-decoration: none;
+}
+        
+h1 {
+    font-family: "Lobster";
+}
+        
+body {
+    font-family: "Roboto";
+}
 
-        .nav ul li {
-            display: inline;
-            float: left;
-        }
+.content {
+    margin: 0 auto;
+    max-width: 50em;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+}
+        
+.nav {
+    line-height: 1.5;
+    padding: 1em 1em;
+    text-align: center;
+}
 
-        .nav ul li a {
-            border-radius: 290486px;
-    	    font-size: 0.3cm;	
-            letter-spacing: 0.09cm;
-	        padding: .25cm .5cm;
-            margin-right: .25cm;
-            margin-left: .25cm;
-    	    text-transform: uppercase;
-	        text-decoration: none;
-	        transition: none 200ms ease-out;
-    	    transition-property: color, background;			
-            color: #4CAF50;
-            background-color: white;
-            border: 1px #4CAF50 solid;
-        }
+.nav ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
 
-        .nav ul li a:hover {
-            background-color: #1B5E20;
-            color: white;
-        }
+.nav ul li {
+    display: inline;
+    float: left;
+}
 
-        ol {
-            padding-left: 13em;
-            font-size: 24px;
-        }
+.nav ul li a {
+    border-radius: 290486px;
+    font-size: 0.3cm;   
+    letter-spacing: 0.09cm;
+    padding: .25cm .5cm;
+    margin-right: .25cm;
+    margin-left: .25cm;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;         
+    color: #4CAF50;
+    background-color: white;
+    border: 1px #4CAF50 solid;
+}
 
-		h2 {
-			margin-top: 1em;
-			padding-top: 1em;
-		}
-		
-		h1,
-		h2 {
-			color: #333;
-		}
-		
-		a {
-			color: #4CAF50;
-		}
-		
-		header h1 {
-			font-size: 2.5em;
-			font-weight: 300;
-			color: white;
-            text-shadow: #000 0px 0px 1px;
-            -webkit-font-smoothing: antialiased;
-		}
-		
-		header a {
-			border-radius: 200px;
-			color: white;
-			font-size: 0.3cm;
-			letter-spacing: 0.1cm;
-			padding: .25cm .5cm;
-			text-transform: uppercase;
-			text-decoration: none;
-			transition: none 200ms ease-out;
-			transition-property: color, background;
-		}
-		
-		header a:hover {
-			background: #4CAF50;
-			color: white;
-		}
-		
-		header {
-			background-color: #263d36;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-			line-height: 1.2;
-			padding: 10vw 2em;
-			text-align: center;
-		}
-		
-		h2,h3 {
-			text-align: center;
-		}
-		
-		.bottom {
-			margin: 0 auto;
-            bottom: 0;
-			text-align: center;
-			background-color: #F5F5F5;
-			width: 100%;
-			padding: 5em 0em;
-		}
-		
-		.bottom a {
-			border-radius: 290486px;
-			font-size: 0.2cm;	
-			letter-spacing: 0.09cm;
-			padding: .25cm .5cm;
-			text-transform: uppercase;
-			text-decoration: none;
-			transition: none 200ms ease-out;
-			transition-property: color, background;
-	}
-		
-		.github {
-			border: 1px solid black;
-			color: black;
-			
-			border-radius: 290486px;
+.nav ul li a:hover {
+    background-color: #1B5E20;
+    color: white;
+}
 
-		}
-		
-		a:hover.github {
-			background: black;
-			color: white;	
-			border-radius: 290486px;
-		}
-		
-		.reddit {
-			border: 1px solid #FF4500;
-			color: black;
-			border-radius: 290486px;
+ol {
+    padding-left: 13em;
+    font-size: 24px;
+}
 
-		}
-		
-		.reddit strong {
-			color: red;
-		}
-		
-		a:hover.reddit {
-			background: #FF4500;
-			color: white;	
-			border-radius: 290486px;
-		}
-		
-		a:hover.reddit strong{
-			color: white;
-		}
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+        
+h1,
+h2 {
+    color: #333;
+}
+        
+a {
+    color: #4CAF50;
+}
+        
+header h1 {
+    font-size: 2.5em;
+    font-weight: 300;
+    color: white;
+    text-shadow: #000 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
+}
+        
+header a {
+    border-radius: 200px;
+    color: white;
+    font-size: 0.3cm;
+    letter-spacing: 0.1cm;
+    padding: .25cm .5cm;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+}
+        
+header a:hover {
+    background: #4CAF50;
+    color: white;
+}
+        
+header {
+    background-color: #263d36;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+}
+        
+h2,h3 {
+    text-align: center;
+}
+        
+.bottom {
+    margin: 0 auto;
+    top: 100%;
+    text-align: center;
+    background-color: #EEEEEE;
+    width: 100%;
+    padding: 5em 0em;
+}
+        
+.bottom a {
+    border-radius: 290486px;
+    font-size: 0.2cm;   
+    letter-spacing: 0.09cm;
+    padding: .25cm .5cm;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+}
+        
+.github {
+    border: 1px solid black;
+    color: black;
+    border-radius: 290486px;
+}
+        
+a:hover.github {
+    background: black;
+    color: white;   
+}
