@@ -27,7 +27,9 @@ body {
     padding: 4em 1em;
     color: #555;
 }
-        
+
+form { text-align: center; }
+
 .nav {
     line-height: 1.5;
     padding: 1em 1em;
