@@ -86,11 +86,11 @@
 
 
             if (num_exams > 1 && num_attendances > 0 && lab_grades > 0) {
-                var total = exam_grades[0] + .25 + exam_grades[1] * .25 + attendance_average * .05 + lab_average * .45;
+                var total = exam_grades[0] * .25 + exam_grades[1] * .25 + attendance_average * .05 + lab_average * .45;
 
                 $('#total').text('Total Average: ' + total + ' (' + (total) + '%)');
             } else if (num_exams == 1 && num_attendances > 0 && lab_grades > 0) {
-                var total = exam_grades[0] + .5 + attendance_average * .05 + lab_average * .45;
+                var total = exam_grades[0] * .5 + attendance_average * .05 + lab_average * .45;
 
                 $('#total').text('Total Average: ' + total + ' (' + (total) + '%)');
                 
