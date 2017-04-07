@@ -47,12 +47,11 @@
             for (var i = 0; i < num_attendances; i++) {
                 attendance_total += parseInt(attendance_grades[i]);
             }
-            attendance_average = attendance_total / attendance_grades.length;
+            attendance_average = (attendance_total * 100) / (num_attendances * 5);
 
             if (num_attendances > 0)
-                $('#attendance').text('Attendance Average: ' + attendance_average + ' (' + ((attendance_total * 100) / (5 * num_attendances)) + '%)');
+                $('#attendance').text('Attendance Average: ' + (attendance_average * num_attendances * 5 / 100) + ' (' + attendance_average + '%)');
 
-            attendance_average = (attendance_total * 100) / (5 * num_attendance);
 
             
             var exam_grades = [];
