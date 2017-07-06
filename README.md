@@ -9,6 +9,6 @@ Originally started as a blog post for an English class, now my personal website!
 
 1. [Beauty in Numbers](https://dylanrainwater.github.io/beauty_in_numbers.html)
 
-#Pictures
+# Pictures
 
 All pictures (so far) have been taken from [unsplash](http://www.unsplash.com). Thanks!
