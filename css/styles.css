@@ -68,7 +68,8 @@ header h1 {
     font-size: 3.5em;
     font-weight: 300;
     color: white;
-    text-shadow: 0px 1px 2px #000;
+    text-shadow: 0px 1px 2px #000,
+                 0px -1px 2px #000;
     -webkit-font-smoothing: antialiased;
 }
 
