@@ -133,7 +133,7 @@ footer {
 }
 
 /*********************
-PAGE: List
+PAGE: Blog List
 **********************/
 
 .list {
@@ -156,6 +156,27 @@ PAGE: List
 
 .list img:hover {
     width: 50%;
+}
+
+/*********************
+PAGE: Course List
+**********************/
+
+
+
+.course-list li {
+    display: block;
+    padding: 1em 5em;
+    margin: 0.5em auto;
+    border: 1px solid black;
+}
+
+.course-list a {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 20%;
+    clear: left;
 }
 
 /*
