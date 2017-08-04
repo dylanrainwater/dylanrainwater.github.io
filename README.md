@@ -1,4 +1,4 @@
-#dylanrainwater.github.io
+# dylanrainwater.github.io
 
 This is just a personal website for whatever I want like my blog posts and a list of all courses I've taken.
 
