@@ -180,6 +180,13 @@ PAGE: Course List
     clear: left;
 }
 
+.course-list li p {
+  font-size: 0.8em;
+}
+
+.course-list h4 {
+  font-size: 1em;
+}
 /*
 PAGE: Blog
 */
