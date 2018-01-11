@@ -153,6 +153,7 @@ PAGE: Blog List
     transition: none 200ms ease-out;
     transition-property: width;
     width: 45%;
+    height: 45%;
 }
 
 .list img:hover {
