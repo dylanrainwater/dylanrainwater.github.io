@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600;700&display=swap');
+
+body {
+    background-color: #1d3557;
+    color: #77ABBD;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.pronouns {
+    color: #457b9d;
+    font-size: 14px;
+}
+
+.container {
+    width: 50%;
+    margin: 8em auto;
+}
+
+h1 {
+    color: #f1faee;
+}
+
+a {
+    color: #BAD289;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #A0C15C;
+}
+
+div {
+    padding: 0.5em 0;
+}
+
+ul {
+    margin-left: 2em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
